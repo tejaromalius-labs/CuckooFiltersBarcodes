@@ -1,0 +1,8 @@
+# Rust / Cargo (Cargo.lock is kept because this crate builds binaries)
+target/
+**/*.rs.bk
+*.pdb
+
+# Benchmark outputs and host state (bench.sh)
+results/
+.host-state
